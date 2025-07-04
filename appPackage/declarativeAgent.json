@@ -3,5 +3,15 @@
     "version": "v1.3",
     "name": "Product support",
     "description": "Product support agent that can help answer customer queries about Contoso Electronics products",
-    "instructions": "$[file('instruction.txt')]"
+    "instructions": "$[file('instruction.txt')]",
+    "capabilities": [
+        {
+            "name": "OneDriveAndSharePoint",
+            "items_by_url": [
+                {
+                    "url": "https://ckm-my.sharepoint.com/personal/jmanrique_encamina_com/Documents/Formaci%C3%B3n/Agentes/Product"
+                }
+            ]
+        }
+    ]
 }
